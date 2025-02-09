@@ -775,8 +775,8 @@ def merge_chunks_to_chapters(split_output_dir, format="wav"):
         print()  # New line after progress
         
         if all_samples:
-            # Create merged file name
-            merged_file = os.path.join(split_output_dir, f"{chapter_dir}.{format}")
+            # Create merged file name based on chapter title (same as chapter_dir if no title)
+            merged_file = os.path.join(split_output_dir, f"{chapter_title}.{format}")
             print(f"Saving merged chapter to {merged_file}")
             print(f"Total duration: {total_duration:.2f} seconds")
             
