@@ -16,8 +16,9 @@ voices.json
 *.npz
 *.bin
 *.onnx
-
 # book files
 *.epub
 *.txt
+*.pdf
 !requirements.txt
+
