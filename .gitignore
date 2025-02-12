@@ -16,6 +16,10 @@ voices.json
 *.npz
 *.bin
 *.onnx
+
+# macOS
+.DS_Store
+
 # book files
 *.epub
 *.txt
